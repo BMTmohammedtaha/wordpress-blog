@@ -1,0 +1,28 @@
+.menu {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    background-color: #00071A;
+    box-shadow: 0 0 10px #232323;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    align-items: center;
+    height: 80px;
+    a {text-decoration: none; color: #ffffff;}
+    ul {
+        li {
+            display: inline-block;
+            color: #ffffff;
+            margin: 0 20px;
+            &:hover {text-shadow: 0 0 10px #fff;}
+        }
+    }
+    img {
+        height: 40px;
+        margin: 20px 0;
+    }
+    #menu-toogle {
+       display: none;
+    }
+}

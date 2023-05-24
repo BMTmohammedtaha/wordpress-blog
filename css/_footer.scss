@@ -1,0 +1,39 @@
+
+
+ .footer {
+    background-color: #111;
+    color: #fff;
+    .footer_menu {
+        display: flex;
+        flex-flow: row wrap;
+
+        .footer-item {
+            width: 33%;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                height: 40px;
+                
+            }
+           li {
+               color: #eee;
+               margin: 10px 0;
+           }
+        }
+        
+    }
+    .copyrightline {
+       hr {
+           width: 80%;
+           margin: 20px auto;
+       }
+        p {
+          
+           text-align: center;
+           padding: 30px;
+       }
+    }
+}

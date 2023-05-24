@@ -1,0 +1,17 @@
+.portfolio {
+    width: 100%;
+    h1 {
+        text-align: center;
+        margin: 50px;
+        color: #00071A;
+    }
+    .gallury {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        img {
+            width: 200px;
+        }
+    }
+}

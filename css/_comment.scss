@@ -1,0 +1,19 @@
+#comments {margin: 5px 50px;font-size: 14px;font-weight: normal;}
+
+.comment-author {display: flex; flex-flow: column; img { margin: 5px 50px; width: 70px; height: 70px;}}
+.fn {margin: 0 0 5px 50px; display: block;font-size: 14px;} 
+.says {display: none;}
+ol {p {margin:0 50px;border-radius: 5px; background-color: #111; height: 100%; padding: 10px; width: 100%;}}
+#respond {padding: 50px; display: flex; flex-flow: column;
+.comment-form-comment {display: flex; flex-flow: column;}
+p {color: #121212;}
+textarea {border-radius: 5px; outline: none; margin: 10px 0;width: 40%; padding: 20px; font-size: 14px; color: #333; border:1px solid #cccccc;}
+input {border-radius: 5px; outline: none; margin: 10px 0; height: 40px; padding: 20px; font-size: 14px; color: #cccccc; border:1px solid #cccccc;}
+input[type='submit'] {background-color: #00071A; width: 15%; color: #fff; text-align: center; padding: 5px 0; text-transform: uppercase;font-weight: 400; font-size: 14px; border: none;
+&:hover {background-color: #fff; color: #00071A; cursor: pointer;border:1px solid #00071A;}}
+label {color: #eee;margin: 20px 0;}
+h3 {color: #00071A;}}
+.commentmetadata {margin:0 50px; .comment-edit-link{border-radius: 5px; outline: none; margin: 10px 0; height: 40px; padding: 20px; font-size: 14px; color: #cccccc; border:1px solid #cccccc;
+background-color: #00071A; width: 15%; color: #fff; text-align: center; padding: 5px; text-transform: uppercase;font-weight: 400; font-size: 14px; border: none;
+&:hover {background-color: #fff; color: #00071A; cursor: pointer;border:1px solid #00071A;}}}
+

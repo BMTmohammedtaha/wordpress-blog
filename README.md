@@ -1,1 +1,1 @@
-"# wordpress-blog" 
+# BMT BLOG Wordpress template
